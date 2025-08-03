@@ -25,7 +25,7 @@ module SevenSegDisplay(
     output 	[6:0] oLED		//7-Segment pinout
     );
     
-    reg [6:0] rLED;				//LED data
+    reg 	[6:0] rLED;		//LED data
     
     always @(*)
     begin
